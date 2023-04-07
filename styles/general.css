@@ -1,0 +1,29 @@
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 145px 0px 0px 0px;
+  padding: 0px;
+}
+main {
+  margin: 0px;
+  padding: 0;
+}
+section {
+  margin: 0;
+  padding: 0;
+}
+article {
+  margin: 0px;
+  padding: 0px;
+}
+figure {
+  margin: 0px;
+  padding: 0px;
+}
+div {
+  margin: 0;
+  padding: 0;
+}
+p {
+  margin: 0;
+  padding: 0;
+}

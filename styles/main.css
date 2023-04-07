@@ -1,0 +1,122 @@
+p,
+.middle-section-img-container + p,
+.main-left-section article {
+  font-size: 17px;
+  padding-top: 1rem;
+}
+.main-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.main-left-section {
+  max-width: 629px;
+}
+
+.main-image-container {
+  background: url(../photos/img-story-main.png);
+  max-width: 629px;
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.main-image-container p {
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.left-section-bottom {
+  display: flex;
+  column-gap: 2.2rem;
+}
+
+.bottom-one article,
+.bottom-two article{
+  background: url(../photos/img-story-2.png) no-repeat;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  color: white;
+  max-width: 300px;
+  min-height: 270px;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 2rem;
+}
+.bottom-two article {
+  background: url(../photos/img-story-3.png) no-repeat;
+}
+
+.main-middle-section {
+  max-width: 300px;
+}
+.main-middle-section h3 {
+  font-size: 1.25rem;
+}
+.middle-section-img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  min-height: 300px;
+  background: url(../photos/img-story-1.png);
+  padding: 0 1rem;
+  margin-top: 1rem;
+}
+.middle-section-img-container p {
+  font-size: 33px;
+  text-align: center;
+}
+
+.main-right-section {
+  max-width: 240px;
+  text-align: center;
+  
+}
+.right-section-img {
+  max-width: 240px;
+  min-height: 250px;
+  background: url(../photos/img-news-bite.png);
+}
+.right-section-img + h2 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 17px;
+  margin: 0;
+  padding: 0;
+}
+.main-right-section ul {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  text-align: left;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  color: dimgrey;
+  background: whitesmoke;
+  padding: 0 0;
+  margin: 2rem 0;
+}
+.main-right-section ul li {
+  border-bottom: 2px solid black;
+  border-collapse: collapse;
+  border-left: none;
+  border-right: none;
+  padding: 0.8rem;
+}
+
+
+@media (width <=618px) {
+  .left-section-bottom{
+    flex-wrap: wrap;
+  }
+  .bottom-one,
+  .bottom-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+}
