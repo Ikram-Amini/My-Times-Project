@@ -25,6 +25,8 @@ footer ul {
   font-size: 0.9rem;
   color: black;
   text-decoration: underline;
+}
+footer ul li {
   cursor: pointer;
 }
 footer ul + p {
