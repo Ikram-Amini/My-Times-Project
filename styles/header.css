@@ -46,8 +46,9 @@
   list-style-type: none;
   margin: 4px 25px 0px 0px;
   padding: 0;
-  cursor: pointer;
-
+}
+.right-section ul li {
+cursor: pointer;
 }
 
 
